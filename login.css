@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+
+#form{
+    background-color: #ffd954;
+    width: 500px;
+    height: 500px;
+    font-family: 'Poppins';
+    margin-left: 700px;
+    margin-top: 80px;
+    border-radius: 15px;
+   }
+   body{
+    background-color: white;
+}
+   h1{
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+   }
+   #box1{
+    margin-left: 40px;
+    margin-right: 70px;
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    font-size: larger;
+    color: rgba(0, 0, 0, 0.158);
+    padding-left: 15px;
+   }
+   #box2{
+    margin-left: 40px;
+    margin-right: 70px;
+    margin-top: 25px;
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    font-size: larger;
+    color: rgba(0, 0, 0, 0.158);
+    padding-left: 15px;
+   }
+   #box1:hover, #box2:hover{
+    color: rgb(165, 165, 165);
+   }
+   .btns{
+    margin-top: 60px;
+    margin-left: 30px;
+   }
+   #submit, #limpar{
+    width: 40%;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    background-color: #ff6582;
+    margin: 15px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+
+   }
+
+   #meio{
+    margin-left: 550px;
+    background-color: #ff6582;
+    width: 5px;
+    height: 500px;
+    margin-top: -500px;
+    border-radius: 45px;
+    border: none;
+   }
+   #ttl{
+    margin-left: 150px;
+    width: 40%;
+    height: 5px;
+    border: none;
+    background-color: #ff6582;
+}
+   .fundo{
+    margin-top: -445px;
+    margin-left: 10px;
+   }
+   .ver{
+        color: #ff6582;
+}   
+    #login-btn{
+        background-color: #ffd954;
+        color: #241f25;
+}
+     #cad-btn{
+        background-color: #ff6582;
+        color: #241f25;
+        border: 2px solid #ff6582;
+}
+
+    .quad{
+        border: 2px solid #ffd954;
+        padding: 10px;
+        border-radius: 15px;
+        background-color: #ffd954;
+        color: #241f25;
+        text-align: center;
+        margin-right: 220px;
+    }
+  .content{
+    margin-top: -50px;
+  }

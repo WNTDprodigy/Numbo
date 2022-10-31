@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="nav.css" rel="stylesheet">
+    <link href="media.css" rel="stylesheet">
+    <link rel="stylesheet" href="login.css">
+    <title>Login | NUMBO</title>
+    <style>
+        header{
+    width: 100%;
+}
+ul{
+    margin-left: 600px;
+    margin-top: -80px;
+}
+
+    </style>
+    
+</head>
+<body><header>
+    <div id="title">
+        <img src="numbopreta.png" width="250px" >
+    </div>
+
+    <ul>
+        <a id="nav" href="index.html"><li>Início</li></a>
+        <a id="nav" href="service.html"><li>Serviços</li></a>
+        <a id="nav" href="sobre.html"><li>Sobre</li></a>
+        <a id="nav" href="ctt.html"><li>Contato</li></a>
+        <a href="formulario.php" id="cad-btn"><li>Cadastre-se</li></a>
+    </ul>
+</header>
+<div class="content">
+    <div id="form">
+        <h1>Login</h1><hr id="ttl"><br>
+        
+        <form action="testLogin.php" method="POST">
+            
+               <input id="box1" type="text" name="email" placeholder="Email">
+               <br><br>
+               <input id="box2" type="password" name="senha" placeholder="Senha">
+               <br><br>
+               <div class="btns">
+                    <input id="limpar" type="reset" name="reset" value="Limpar">
+                    <input id="submit" type="submit" name="submit" value="Enviar">
+               </div>
+            
+        </form>
+        
+            
+    </div><hr id="meio">
+    <div class="fundo">
+            <img src= "imagem18.svg" width="40%" height="40%">
+        </div>
+    
+</div>
+</body>

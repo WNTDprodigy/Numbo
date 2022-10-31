@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+#nav{
+    color: #241f25;
+    font-family: 'Poppins', 'Regular';
+}
+
+#login-btn{
+    border: 2px solid #ffd954;
+    padding: 10px;
+    border-radius: 15px;
+    color: #241f25;
+    background-color: #ffd954;
+}
+
+#login-btn{
+    background-color: #ffd954;
+    color: #241f25;
+    font-family: 'Poppins';
+}
+#cad-btn{
+    border: 2px solid #ff6582;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #ff6582;
+    font-family: 'Poppins';
+}
+
+#cad-btn{
+    background-color: #ff6582;
+    color: #241f25;
+    font-family: 'Poppins';
+}
